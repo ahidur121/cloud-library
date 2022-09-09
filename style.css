@@ -1,0 +1,479 @@
+/*-------------------author:---Ahidur Rahaman---------------------------------------------------*/
+
+
+body{
+background-size: cover;
+font-family: 'Lora', serif;
+background: #8E0E00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+/*---------------------------------------login-page---------------------------------------------------*/
+.log{
+    background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/*----------------------------------------------------------upper-hearder-section---------------------------------------------*/
+.uphead{
+    height: 50px;
+    width: 100%;
+    background-color:black;
+    
+    
+}
+.uphead .s1{
+    height: 50px;
+    width: 33.33%;
+    float: left;
+    
+}
+.uphead .s1 a{
+    color: white;
+    display: block;
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 50px;
+    text-decoration: none;
+
+}
+.uphead .s2{
+    height: 50px;
+    width: 33.33%;
+    float: left;
+    
+}
+.uphead .s2 a{
+    color: white;
+    display: block;
+    text-align: center;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 50px;
+}
+.uphead .s3{
+    height: 50px;
+    width: 33.34%;
+    float: left;
+}
+.uphead .s3 ul{
+    text-align: center;
+}
+.uphead .s3 ul li {
+    display: inline-block;
+
+}
+
+.uphead .s3 ul li a{
+    margin-left: 10px;
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    font-style: italic;
+}
+/*---------------------------------------------------------------navigation bar-------------------------------------------------------------------*/
+.nav{
+    height: 80px;
+    width: 100%;
+    
+}
+.nav .logo img{
+    height: 90px;
+    width: 90px;
+    display: block;
+    margin: auto;
+    padding-top: 0px;
+}
+.nav .logo{
+    height: 80px;
+    width: 10%;
+    float: left;
+    
+}
+.nav .search-bar{
+    height: 80px;
+    width: 40%;
+    float: left;
+}
+.nav .search-bar form{
+    text-align: center;
+}
+.nav .h-items{
+    width: 50%;
+    height: 80px;
+    float: left;
+}
+.nav .h-items ul li{
+    display: inline-block;
+    padding-top: 10px;
+}
+.nav .h-items ul{
+    text-align: center;
+}
+.nav .h-items ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 15px;
+    background-color:transparent;
+    font-style: italic;
+    color: white;
+    border-radius: 5px;
+    
+}
+.nav .h-items ul li a:hover{
+    background:rgb(165, 236, 216);
+}
+.sr{
+    width: 404px;
+    border-radius: 10px;
+    height: 10px;
+    text-align: center;
+    padding: 6px;
+    margin-top: 20px;
+    font-size: 17px;
+}
+.btn{
+    padding: 6px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.head{
+    width: 20%;
+    height: 50px;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-left: 600px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.head h2{
+    padding-top: 10px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    color: white;
+}
+span{
+    color: rgb(105, 199, 199);
+}
+span:hover{
+    color: white;
+}
+/*-----------------------------------------------------------------container-box---------------------------------------------------------------*/
+.container {
+    height: 490px;
+    width: 100%;
+    
+
+}
+.img-container{
+    height: 450px;
+    width: 100%;
+   
+}
+.img-container img{
+    height: 450px;
+    width: 100%;
+
+}
+.container .cs1{
+    height: 450px;
+    width: 20%;
+    float: left;
+}
+.container .cs2{
+    height: 450px;
+    width: 20%;
+    float: left;
+}
+.container .cs3{
+    height: 450px;
+    width: 20%;
+    float: left;
+}
+.container .cs4{
+    height: 450px;
+    width: 20%;
+    float: left;
+}
+.container .cs5{
+    height: 450px;
+    width: 20%;
+    float: left;
+    
+}
+.container h2{
+    text-align: left;
+    padding-top: 10px;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+.container .cs1 img , .container .cs2 img ,.container .cs3 img ,.container .cs4 img ,.container .cs5 img {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.container .cs1 img:hover, .container .cs2 img:hover ,.container .cs3 img:hover ,.container .cs4 img:hover ,.container .cs5 img:hover{
+    transform: scale(1.1);
+}
+.container .cs1 h3 , .container .cs2 h3 , .container .cs3 h3 , .container .cs4 h3 ,.container .cs5 h3{
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+}
+.container .cs1 a, .container .cs2 a , .container .cs3 a , .container .cs4 a , .container .cs5 a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+color: white;
+text-align: center;
+}
+/*------------------------------------------------------footer-section-----------------------------------------------------------------*/
+.footer{
+    width: 100%;
+    height: 350px;
+    background-color:whitesmoke;
+}
+.footer .sf{
+    width: 33.33%;
+    height: 250px;
+    float: left;
+}
+.footer .sf h2, .footer .sf p , .footer .sf2 h2 , .footer .sf3 h2{
+    text-align: center;
+}
+.footer .sf img {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+.footer .sf2{
+    width: 33.33%;
+    height: 250px;
+    float: left;
+}
+.footer .sf2 img{
+    display: block;
+    margin: auto;
+   padding-top:  35px;
+   cursor: pointer;
+}
+.footer .sf3{
+    width: 33.34%;
+    height: 250px;
+    float: left;
+}
+.footer .sf3 ul li a{
+    text-decoration: none;
+}
+.footer .sf3 ul li{
+    display: block;
+    padding-top: 5px;
+}
+.footer .sf3 ul {
+    text-align: center;
+}
+.footer h4{
+    text-align: center
+;
+}
+/*-------------------------------------------------------------login-section----------------------------------------------------------------*/
+.login{
+    height: 350px;
+    width: 25%;
+    border-radius: 30px;
+    margin-left: 550px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    ;
+    background: #243B55;
+
+
+}
+.fn{
+    color: white;
+    font-style: italic;
+}
+.br{
+    border-radius: 10px;
+}
+.login h4{
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+.login h2{
+    text-align: center;
+    font-style: italic;
+    padding-top: 10px;
+    color: white;
+}
+.login h4 a{
+    text-decoration: none;
+    color: rgb(0, 255, 204);
+}
+.login table {
+    text-align: center;
+}
+.btn2{
+    padding-top: 15px;
+   
+}
+.btn2 input{
+    font-style: italic;
+    background-color: rgb(0, 255, 204);
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 80px;
+}
+.login ul li{
+    display: inline-block;
+  padding-left: 45px;
+}
+.login ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    color: yellow;
+    font-style: italic;
+}
+/*-------------------------------------------------------------------developer-page-------------------------------------------------------------------------*/
+.devo{
+    background: #FF8008;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+    
+
+
+}
+.dev , .map{
+    width: 100%;
+    height: 450px;
+   
+}
+.dev .dev1{
+    width: 25%;
+    height: 450px;
+    float: left;
+
+}
+.dev .dev1 img{
+    display: block;
+    margin: auto;
+    height: 270px;
+    width: 250px;
+    margin-top: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    filter: grayscale(100%);
+ 
+}
+.dev .dev1 img:hover{
+    filter: grayscale(0%);
+}
+
+.dinfo h3{
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+}
+.dinfo a{
+    text-decoration: none;
+    display: block;
+  text-align: center;
+  color: white;
+}
+/*------------------------------------------------------------------------about-page---------------------------------------------------------------------------*/
+.abu{
+    background: #B79891;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #94716B, #B79891);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #94716B, #B79891); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.ab h1{
+    text-align: center;
+    font-size: 70px;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+}
+.ab{
+    width: 100%;
+    height: 700px;
+   
+}
+.ab1{
+    width: 70%;
+    height: 500px;
+    float: left;
+}
+.ab1 p{
+    font-size: 23px;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}
+.ab .ab1 p a{
+    text-decoration: none;
+    color: white;
+} 
+.ab2{
+    width: 30%;
+    height: 500px;
+    float: left;
+}
+.ab2 img{
+    width: 350px;
+    height: 350px;
+   filter: invert(white);
+}
+/*--------------------------------------------------------------------------------------ebook-pages--------------------------------------------------------------*/
+.book{
+    background: #f46b45;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.head2 h2{
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+  
+}
+h6{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.active{
+    background-color: #180d4e;
+    border-radius: 5px;
+}
+h6 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin-left: 3px;
+}
